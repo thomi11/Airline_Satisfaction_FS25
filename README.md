@@ -1,8 +1,3 @@
-# ChatGPT Prompt:
-Basierend auf meinem .py file, erstelle mir eine readme description für mein Airline Projekt
-
-# Output:
-
 # Airline Passenger Satisfaction Analytics
 
 ## Übersicht
@@ -95,3 +90,10 @@ Die Anwendung kann leicht angepasst werden, um spezifische Anforderungen zu erf�
 ## Mitwirkende
 
 Diese Anwendung wurde als Capstone-Projekt für den Kurs "Big Data & Data Science" an der Universität St. Gallen entwickelt.
+
+***
+# Hilfmittel:
+Chatgpt
+
+# ChatGPT Prompt:
+Basierend auf meinem .py file, erstelle mir eine readme description für mein Airline Projekt
