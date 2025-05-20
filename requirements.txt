@@ -1,0 +1,95 @@
+# requirements.txt
+# Notwendige Pakete für die App
+streamlit==1.32.0
+pandas==2.1.4
+numpy==1.26.3
+matplotlib==3.8.2
+plotly==5.18.0
+seaborn==0.13.0
+scikit-learn==1.4.0
+xgboost==2.0.3
+pickle-mixin==1.0.2
+
+# .streamlit/config.toml
+"""
+[theme]
+primaryColor = "#003566"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F0F2F6"
+textColor = "#003566"
+font = "sans serif"
+
+[server]
+enableCORS = false
+enableXsrfProtection = false
+"""
+
+# README.md
+"""
+# Airline Passenger Satisfaction Analytics
+
+Eine interaktive Streamlit-Anwendung zur Analyse und Vorhersage der Kundenzufriedenheit im Flugverkehr.
+
+## Funktionen
+
+- **Executive Dashboard**: Übersicht der wichtigsten KPIs und Zufriedenheitstrends
+- **Detailed Analysis**: Tiefgehende Analyse von Servicebewertungen und Einflussfaktoren
+- **Satisfaction Prediction**: Machine Learning-basierte Vorhersage der Kundenzufriedenheit
+- **Customer Journey Map**: Visualisierung der Kundenerfahrung über verschiedene Touchpoints
+- **Recommendations**: Datengestützte Empfehlungen zur Verbesserung der Kundenzufriedenheit
+
+## Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+## Ausführung
+
+```bash
+streamlit run capstone.py
+```
+
+## Datensatz
+
+Die Anwendung verwendet den Datensatz `capstone_merged_data.csv`, der verschiedene Kundenbewertungen und Fluginformationen enthält.
+
+## Modell
+
+Die Anwendung nutzt ein vortrainiertes XGBoost-Modell (`xgb_model.sav`), um Kundenzufriedenheit zu prognostizieren.
+"""
+
+# .gitignore
+"""
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# macOS
+.DS_Store
+
+# Secrets
+.streamlit/secrets.toml
+"""
