@@ -1,12 +1,6 @@
 import streamlit as st
 import pandas as pd 
-try:
-    import matplotlib.pyplot as plt
-except ImportError:
-    # Fallback-Import, falls der Standard-Import fehlschlägt
-    import matplotlib
-    matplotlib.use('Agg')  # Non-interactive backend
-    import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import plotly.express as px
 import plotly.graph_objects as go
 import seaborn as sns
